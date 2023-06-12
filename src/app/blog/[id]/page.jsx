@@ -1,14 +1,26 @@
 import React from "react";
 import styles from './page.module.css'
 import Image from "next/image";
+import { PageNotFoundError } from "next/dist/shared/lib/utils";
 
-const BlogPost = () => {
+async function getData(id) {
+    const res = await fetch (`https://jsonplaceholder.typicode.com/posts/${id}`);
+
+    if (!res.ok){
+        return PageNotFoundError;
+    }
+
+    return res.json();
+}
+
+const BlogPost = async ({params}) => {
+    const data = await getData(params.id) 
     return(
         <div className={styles.container}>
             <div className="styles.top">
                 <div className={styles.info}>
                     <h1 className={styles.title}>
-                        Info info info info info
+                        {data.title}
                     </h1>
                     <p className={styles.desc}>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi aut iste recusandae voluptatum, dolorem accusantium hic laborum dolor enim ratione commodi esse autem debitis! Commodi adipisci odit nulla doloremque reiciendis!
