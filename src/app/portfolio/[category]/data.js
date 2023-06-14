@@ -1,71 +1,25 @@
 export const items = {
-  applications: [
+  photography: [
     {
       id: 1,
-      title: "Creative Portfolio",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      title: "R34 Nissan Skyline GTR",
+      desc: "Desc",
       image:
-        "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
+        "https://i.imgur.com/wSqv2RW.png",
     },
     {
       id: 2,
-      title: "Minimal Single Product",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      title: "AutoHeart Collection",
+      desc: "DESC",
       image:
-        "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
+        "https://i.imgur.com/WvgJWnq.png",
     },
     {
       id: 3,
-      title: "Strong Together Charity",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      title: "Rollers",
+      desc: "Desc",
       image:
-        "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
-    }
-  ],
-  illustrations: [
-    {
-      id: 1,
-      title: "Creative Portfolio",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
-    },
-    {
-      id: 2,
-      title: "Minimal Single Product",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
-    },
-    {
-      id: 3,
-      title: "Strong Together Charity",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
-    }
-  ],
-  websites: [
-    {
-      id: 1,
-      title: "Creative Portfolio",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
-    },
-    {
-      id: 2,
-      title: "Minimal Single Product",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
-    },
-    {
-      id: 3,
-      title: "Strong Together Charity",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      image:
-        "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
+        "https://i.imgur.com/kXXRAqv.png",
     }
   ],
 };

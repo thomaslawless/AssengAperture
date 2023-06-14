@@ -24,7 +24,7 @@
 }
 
 .item:nth-child(1) {
-  background: url("/illustration.png");
+  background: url("/photo.png");
 }
 .item:nth-child(2) {
   background: url("/websites.jpg");
