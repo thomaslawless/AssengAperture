@@ -1,20 +1,23 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Hero from 'public/hero.png'
-import Button from '@/components/Button/Button'
+import Image from "next/image";
+import styles from "./page.module.css";
+import Hand from "public/hand.png";
+import Button from "@/components/Button/Button";
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1 className={styles.title}>Better design for your digital products.</h1>
+        <h1 className={styles.title}>
+          Better Photography for your car collection.
+        </h1>
         <p className={styles.desc}>
-          Turning your Idea into Reality. We bring together the teams from the global tech industry.
+          Turning your Idea into Reality.
         </p>
-        <Button url="/portfolio" text="see our work" />
+        <Button url="/portfolio" text="Our Work"/>
       </div>
       <div className={styles.item}>
-      <Image src={Hero} alt="" className={styles.img} />
+        <Image src={Hand} alt="" className={styles.img} />
+      </div>
     </div>
-    </div>
-  )
+  );
 }
